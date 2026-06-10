@@ -142,7 +142,6 @@ function displayProfile(data) {
     
     userIdDisplay.dataset.value = data.user_id;
     emailDisplay.dataset.value = data.email || '';
-    setAvatar();
 }
 
 function displayMenu(data) {
@@ -157,7 +156,6 @@ function showMenu() {
 }
 
 function showProfile() {
-    setAvatar();
     loadingState.classList.add('hidden');
     profileContent.classList.remove('hidden');
     errorState.classList.add('hidden');
@@ -333,7 +331,6 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Инициализировать приложение
     initApp();
-    setAvatar();
 });
 
 // ===== Keyboard Safety =====
