@@ -2,7 +2,7 @@
 const CONFIG = {
     // ВАЖНО: Измените этот адрес на ваш ngrok адрес или production API
     // Пример: https://abc123.ngrok.io
-    API_BASE_URL: 'https://jackpot-landowner-anything.ngrok-free.dev',
+    API_BASE_URL: 'https://millennium-links-bulletin-exhibit.trycloudflare.com ',
     
     // Endpoint для получения профиля
     // Ожидается ответ: { user_id, username, email }
